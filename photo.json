@@ -1,0 +1,11 @@
+{
+ "app": "photo",
+ "version": "1.7.0",
+ "date": "06/11/2026",
+ "url": "https://github.com/quangnghi2111-ai/nghitran-capnhat/releases/download/photo-1.7.0/NGHI_TRAN_Photo_1.7.0_Setup.exe",
+ "size": 91157636,
+ "sha256": "0078f4afe6c28a4e12b4b74fd812eab223065b90abfaa2af4c8cc648e74a15c9",
+ "notes": "Tự cập nhật: phần mềm tự báo khi có bản mới, bấm 1 nút là tải và cài, giữ nguyên kích hoạt và ảnh. Nhận khuôn mặt tốt hơn (mặt nghiêng, ảnh nhóm, ảnh toàn thân). Dùng thử bản đầy đủ 7 ngày. Cọ sửa tách nền ảnh thẻ. Làm đẹp dáng người chính xác hơn ở ảnh nhiều người, ảnh ngồi.",
+ "bat_buoc": false,
+ "sig": "ffcae541459846e88af2bd5eea2d2845464dfc2e117cf08002edd9c12781b4c34f9ac46f4ebb661e300e5ddf818c972ded1aa59056d098971b0b64d0c819a007"
+}
