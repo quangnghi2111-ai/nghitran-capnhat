@@ -1,11 +1,11 @@
 {
  "app": "pdf",
- "version": "1.3.8",
+ "version": "1.3.9",
  "date": "06/11/2026",
- "url": "https://github.com/quangnghi2111-ai/nghitran-capnhat/releases/download/pdf-1.3.8/NGHI_TRAN_PDF_CaiDat_1.3.8.exe",
- "size": 120279810,
- "sha256": "2b174a4d4933267d7be866ac4aabf14f002c086e6a1369724a22eea4c8a03655",
- "notes": "Những thay đổi trong bản mới này:\n- Có thêm chức năng kiểm tra cập nhật mỗi ngày",
+ "url": "https://github.com/quangnghi2111-ai/nghitran-capnhat/releases/download/pdf-1.3.9/NGHI_TRAN_PDF_CaiDat_1.3.9.exe",
+ "size": 120279535,
+ "sha256": "b99ba331a554d5af9eeec164a0500740241bc827ca70155ffe1ea7d59436bd42",
+ "notes": "Thông tin cập nhất mới:\n- Cập nhật thêm tính năng kiểm tra cập nhật và tự cập nhật\n- Cập nhật không mất bản quyền và tập tin đã lưu trên máy tính",
  "bat_buoc": false,
- "sig": "7144b56c8de01c9474e4f4f290bc00ddb98120e958562f27aa2be94ed812133fdcaf0cc785b90d3bae5575b9ec0848ac7998a1607258584a51467d23ae4d5a00"
+ "sig": "8c488a94cd58edf8637abbbf55c6a7ffb30b32e38342b3eda46b86aa4edd643ac9234689dfe7ae264a1a6d07f32bef55c4cc5c0d247ec24297c6db185eef6002"
 }
