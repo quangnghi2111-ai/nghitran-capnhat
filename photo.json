@@ -1,11 +1,11 @@
 {
  "app": "photo",
- "version": "1.7.1",
+ "version": "1.7.2",
  "date": "07/11/2026",
- "url": "https://github.com/quangnghi2111-ai/nghitran-capnhat/releases/download/photo-1.7.1/NGHI_TRAN_Photo_1.7.1_Setup.exe",
- "size": 91183902,
- "sha256": "c69158410371881064c0daac992e3b86892d526b2c54b3a5eb76473a640898a1",
- "notes": "Thông tin cập nhật:\n\t** In ảnh thẻ: \"Tờ in\" in nhiều người, nhiều cỡ trên cùng 1 tờ (mặc định A5 ngang), có bộ mẫu \"4 tấm 3×4 + 4 tấm 4×6\", tự xếp theo hàng để cắt nhanh, tự sang tờ mới khi đầy.",
+ "url": "https://github.com/quangnghi2111-ai/nghitran-capnhat/releases/download/photo-1.7.2/NGHI_TRAN_Photo_1.7.2_Setup.exe",
+ "size": 91201803,
+ "sha256": "7ea1ad36bca36ea8ee5ee09f0893cf7002d1ff80d974a8a75d66e3aa71f5e8fe",
+ "notes": "Cửa sổ In có xem trước (chọn máy in, số bản, tờ in, in đúng kích thước thật). In ảnh thẻ: chọn giấy Ngang/Dọc ngay từ đầu; tờ in nhiều người, nhiều cỡ: bấm \"Thêm vào tờ in\", rồi chọn ảnh khác hoặc cỡ khác và số tấm là tự đưa vào tờ in.",
  "bat_buoc": false,
- "sig": "dfc6c961ddb2e3a5492c496098a6ec703edbe4f896d1308585c0b6df1d939a448892cbadef9173ab0219764bd26b64912efa2239ab5db90c5daadb71b2196f08"
+ "sig": "5034ff23eb996f5fa516d8b9e1d90862cef3ab6a0100c1cea9e438d11aac4544d6faf28c1bf8f0559d46c4da604dcc22ae0b49fd8c8a28e20d8d58de2e31c201"
 }
