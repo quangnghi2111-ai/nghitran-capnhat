@@ -1,11 +1,11 @@
 {
  "app": "photo",
- "version": "1.7.4",
+ "version": "1.7.5",
  "date": "07/11/2026",
- "url": "https://github.com/quangnghi2111-ai/nghitran-capnhat/releases/download/photo-1.7.4/NGHI_TRAN_Photo_1.7.4_Setup.exe",
- "size": 91220226,
- "sha256": "cbdd29cd1f11b1d6910188dd93e460db76dfff88a2e574ed7fc6d58df1002af4",
- "notes": "Sửa lỗi in: máy in thật (ví dụ HP LaserJet) giữ khổ A4 dọc mặc định nên tờ A5 in ra bị lệch, mất ảnh. Nay khổ giấy và chiều giấy luôn do phần mềm đặt cho máy in (cả sau khi mở Thuộc tính máy in); máy in không nhận khổ đó thì báo đỏ và hỏi lại trước khi in.",
+ "url": "https://github.com/quangnghi2111-ai/nghitran-capnhat/releases/download/photo-1.7.5/NGHI_TRAN_Photo_1.7.5_Setup.exe",
+ "size": 91210152,
+ "sha256": "086143d69d3daad63ca25ecddabf824414760fe785a1db406034410bca1904fb",
+ "notes": "Sửa lỗi sau khi tự cập nhật hiện bảng \"Unhandled exception … numpy … DLL load failed\": bộ cài không để Windows mở phần mềm thêm lần nữa (trước đây mở 2 cửa sổ cùng lúc), phần mềm khởi động nhẹ hơn, và nếu lần mở đầu tiên sau khi cài vẫn lỗi nạp thư viện thì tự đợi 3 giây rồi mở lại.",
  "bat_buoc": false,
- "sig": "64d42f90dd00d9bc6d521b9519cf4aec1c0477b62dcbcef2b1af2574a50a72613b89c49e571cbb692504096d95ea31066b1485fca50b82faa429bbc4d45c4a0c"
+ "sig": "aa0bb9883ddd56b0da1cf63c9c0ddbca45cdb851a93b4773108ba5943a2a31c12a7057ddc1ba03fa4b08f02ba0685fc0046cd929e5e7afc75650360a0636670e"
 }
