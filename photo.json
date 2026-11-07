@@ -1,11 +1,11 @@
 {
  "app": "photo",
- "version": "1.7.2",
+ "version": "1.7.3",
  "date": "07/11/2026",
- "url": "https://github.com/quangnghi2111-ai/nghitran-capnhat/releases/download/photo-1.7.2/NGHI_TRAN_Photo_1.7.2_Setup.exe",
- "size": 91201803,
- "sha256": "7ea1ad36bca36ea8ee5ee09f0893cf7002d1ff80d974a8a75d66e3aa71f5e8fe",
- "notes": "Cửa sổ In có xem trước (chọn máy in, số bản, tờ in, in đúng kích thước thật). In ảnh thẻ: chọn giấy Ngang/Dọc ngay từ đầu; tờ in nhiều người, nhiều cỡ: bấm \"Thêm vào tờ in\", rồi chọn ảnh khác hoặc cỡ khác và số tấm là tự đưa vào tờ in.",
+ "url": "https://github.com/quangnghi2111-ai/nghitran-capnhat/releases/download/photo-1.7.3/NGHI_TRAN_Photo_1.7.3_Setup.exe",
+ "size": 91214519,
+ "sha256": "47ce24a040f55c7114eeab180cc4c4bad00e738bf34c9472e9cfcd740152c5eb",
+ "notes": "In ảnh thẻ: khung cắt có 2 chế độ \"Giữ tỉ lệ\" (mặc định, kéo góc thì góc đối diện đứng yên) và \"Tự do\" (phần thiếu tô màu nền); ảnh thẻ xếp sát góc trái trên của giấy; bấm 1 dòng trong danh sách tờ in là ảnh đó hiện ra để sửa (✕ để bỏ dòng); cửa sổ In có chọn khổ giấy, chiều Ngang/Dọc, nút \"Thuộc tính máy in…\" và in đúng kích thước thật (3x4 ra đúng 3x4 cm, không phóng theo giấy của máy in, có cảnh báo khi khổ giấy máy in khác khổ giấy đang xếp). Chỉnh sửa, Làm đẹp, In ảnh thẻ mở được khi chưa chọn ảnh (nút Chọn ảnh…, Mở thư mục…, kéo thả ảnh vào) và có cột ảnh bên trái liệt kê ảnh trong thư mục đang mở; bấm « để thu gọn cột, » để mở lại, phần mềm nhớ trạng thái.",
  "bat_buoc": false,
- "sig": "5034ff23eb996f5fa516d8b9e1d90862cef3ab6a0100c1cea9e438d11aac4544d6faf28c1bf8f0559d46c4da604dcc22ae0b49fd8c8a28e20d8d58de2e31c201"
+ "sig": "cc51b1089b33f85877c5812978096cf20d3fc8f841d93a7648a13a641971cfa379ba7bb5fd4689c54f8d61cff0ba5bcd3743b1046c00f1f96c8aa9e5fab0c00e"
 }
