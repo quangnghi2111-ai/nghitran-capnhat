@@ -1,11 +1,11 @@
 {
  "app": "pdf",
- "version": "1.4.0",
+ "version": "1.4.1",
  "date": "10/11/2026",
- "url": "https://github.com/quangnghi2111-ai/nghitran-capnhat/releases/download/pdf-1.4.0/NGHI_TRAN_PDF_CaiDat_1.4.0.exe",
- "size": 121681800,
- "sha256": "81eaa5d7235de47e823e34ed932e6f62b7919fc3470709ce4ca94ab9c8210e4c",
- "notes": "Mở phần mềm hiện ngay màn hình chờ có logo; đọc trước thư viện để mở lần đầu nhanh hơn",
+ "url": "https://github.com/quangnghi2111-ai/nghitran-capnhat/releases/download/pdf-1.4.1/NGHI_TRAN_PDF_CaiDat_1.4.1.exe",
+ "size": 121684437,
+ "sha256": "a51919d582411240bef62e4924e63551dea2d8f477a74fc0d8311e444a107366",
+ "notes": "- Sửa lỗi khởi động màn hình nhanh hơn",
  "bat_buoc": false,
- "sig": "d27f6880b528b2fd2eb1ee105b17a707f99dd253ff3bfea23233f24f9dc193d7d25bccd21d05e6cbc9c1aae1bc2b5a28012f579716a30fb769c0aa422290a40e"
+ "sig": "9b3cbf65c13d94c531b22f8c610f905272f1f8fadcfe35328bd887b617985209ce5d73a6495ff34b06c2a26cbc0f7385b79faeb61750616c9521be08247bfb04"
 }
