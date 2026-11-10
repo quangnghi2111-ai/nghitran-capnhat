@@ -1,11 +1,11 @@
 {
  "app": "pdf",
- "version": "1.4.1",
+ "version": "1.4.3",
  "date": "10/11/2026",
- "url": "https://github.com/quangnghi2111-ai/nghitran-capnhat/releases/download/pdf-1.4.1/NGHI_TRAN_PDF_CaiDat_1.4.1.exe",
- "size": 121684437,
- "sha256": "a51919d582411240bef62e4924e63551dea2d8f477a74fc0d8311e444a107366",
- "notes": "- Sửa lỗi khởi động màn hình nhanh hơn",
+ "url": "https://github.com/quangnghi2111-ai/nghitran-capnhat/releases/download/pdf-1.4.3/NGHI_TRAN_PDF_CaiDat_1.4.3.exe",
+ "size": 121940004,
+ "sha256": "cb8a762d53cc608fa072115721c6bdd774e1ae14b9328a842584c691e09dfc63",
+ "notes": "Fix lỗi phần mềm chạy chậm",
  "bat_buoc": false,
- "sig": "9b3cbf65c13d94c531b22f8c610f905272f1f8fadcfe35328bd887b617985209ce5d73a6495ff34b06c2a26cbc0f7385b79faeb61750616c9521be08247bfb04"
+ "sig": "d327285355134d876415a8fe8b22c1246c2a491f96d63ed8c4d984bd95db55735b572547ed793885ddb04423014575b0df3e1c4a83211e142126371cb8c56b0d"
 }
