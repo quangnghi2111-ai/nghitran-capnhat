@@ -1,11 +1,11 @@
 {
  "app": "photo",
- "version": "1.7.5",
- "date": "07/11/2026",
- "url": "https://github.com/quangnghi2111-ai/nghitran-capnhat/releases/download/photo-1.7.5/NGHI_TRAN_Photo_1.7.5_Setup.exe",
- "size": 91210152,
- "sha256": "086143d69d3daad63ca25ecddabf824414760fe785a1db406034410bca1904fb",
- "notes": "Sửa lỗi sau khi tự cập nhật hiện bảng \"Unhandled exception … numpy … DLL load failed\": bộ cài không để Windows mở phần mềm thêm lần nữa (trước đây mở 2 cửa sổ cùng lúc), phần mềm khởi động nhẹ hơn, và nếu lần mở đầu tiên sau khi cài vẫn lỗi nạp thư viện thì tự đợi 3 giây rồi mở lại.",
+ "version": "1.7.6",
+ "date": "13/11/2026",
+ "url": "https://github.com/quangnghi2111-ai/nghitran-capnhat/releases/download/photo-1.7.6/NGHI_TRAN_Photo_1.7.6_Setup.exe",
+ "size": 91233208,
+ "sha256": "68e7c21f7f02dfacc39463a26325396bc4c2c223b11a8e10acbe9881435ef699",
+ "notes": "Sửa lỗi giao diện In trong phần mềm",
  "bat_buoc": false,
- "sig": "aa0bb9883ddd56b0da1cf63c9c0ddbca45cdb851a93b4773108ba5943a2a31c12a7057ddc1ba03fa4b08f02ba0685fc0046cd929e5e7afc75650360a0636670e"
+ "sig": "b7a2971ec40acaf52f5153d5ee4ce72f4c9059bd21e0356919ed71a33b99ff287b7005cf2017b5d7bf5e9c4255cc66b55dd3d1da0a8fa03a213a8d0d05e9f109"
 }
