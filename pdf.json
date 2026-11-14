@@ -1,11 +1,11 @@
 {
  "app": "pdf",
- "version": "1.5.0",
- "date": "13/11/2026",
- "url": "https://github.com/quangnghi2111-ai/nghitran-capnhat/releases/download/pdf-1.5.0/NGHI_TRAN_PDF_CaiDat_1.5.0.exe",
- "size": 121968011,
- "sha256": "e44dc2f71079d8ce6eefe7c1b20cbd5a44977df917f21acdf32b8a1e14853f53",
- "notes": "- Sửa lỗi giao diện - In",
+ "version": "1.5.1",
+ "date": "14/11/2026",
+ "url": "https://github.com/quangnghi2111-ai/nghitran-capnhat/releases/download/pdf-1.5.1/NGHI_TRAN_PDF_CaiDat_1.5.1.exe",
+ "size": 122161606,
+ "sha256": "cb9aff54e0aaa2872c1ae0eefdd531586519fdc82eaba901379b9e5f4c86db7b",
+ "notes": "Hỗ trợ đọc và xem file PDF có chữ ký số",
  "bat_buoc": false,
- "sig": "9ee20dc08aa1914c941ca684c1c0641962f9bbcf620aed10f025de413d44f6c65f54f73269860dbffa47b3581ff9a6b5771d2b33257267eaa3d4c22fac9f850c"
+ "sig": "fa6ced1ddf308f4b5d4a15be3a0c13a0fa2356fee26a4ea2813038208844845929acf54ac1d060d7690f39d3eaa32af08463299b1ea47cdc913e96779a33ce07"
 }
