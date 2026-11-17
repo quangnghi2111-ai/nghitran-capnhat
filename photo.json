@@ -1,11 +1,11 @@
 {
  "app": "photo",
- "version": "1.7.7",
+ "version": "1.7.8",
  "date": "17/11/2026",
- "url": "https://github.com/quangnghi2111-ai/nghitran-capnhat/releases/download/photo-1.7.7/NGHI_TRAN_Photo_1.7.7_Setup.exe",
- "size": 92560506,
- "sha256": "ef66594d52f54e547db9876bf001e79fb8226bd7e9eb14f75b4faf4ea48080e9",
- "notes": "Sửa lỗi giao diện khởi động và in ảnh",
+ "url": "https://raw.githubusercontent.com/quangnghi2111-ai/nghitran-capnhat/tai-ve/NGHI_TRAN_Photo_1.7.8_Setup.exe",
+ "size": 92697219,
+ "sha256": "6c8058e30f5f0596e9fbe1fb4986090451c78937616be52e977458c5cece3a66",
+ "notes": "- Sửa lỗi giao diện phần mềm\n- Tải tự động lỗi thì có thêm dòng \"Tải bằng trình duyệt\".",
  "bat_buoc": false,
- "sig": "c45d6ff64200946cf63db3bf63ba45b087b25786a8756818877dcc88e93885c3fbc9b24023f0568e41e3f963a6ef2a8a001ac2bc95d52a9a0c01a5e3edbbe10a"
+ "sig": "fff527d66d37bf79c5a24be221a6e77cc031555a98f096e976aa8b9421cd5a56fe0a6a11f10a86297d122934dcbcf3b5290f05921e46bc66528822eecd522008"
 }
