@@ -7,5 +7,8 @@
  "sha256": "c03a9fa279e6c868b5f430b05841eae7409883257cdbc9a290de381ac25d2516",
  "notes": "Thêm nhận diện với file PDF có chữ ký số.",
  "bat_buoc": false,
- "sig": "af5f4e115771a8e69a3a50e5dfb77a4ef362961b613f3bf0cc8870b047342d1e0f4a87eb9b2f988e58c83d8820e113519ad479584a3a8ff494529764147cbe0b"
+ "tang_den": "2027-11-20",
+ "thong_ke": "https://script.google.com/macros/s/AKfycbw9mGjcjp8MqXeI8OzVAXD5-nrLZcYhfUqhz1oEqmlFUpHIswE1OZnYBow5omn1Z_qJ/exec",
+ "ky_luc": 1795181907,
+ "sig": "9bb76112b650e2f2356d8e826afc3f4d6324525d279da1e0c1ba6438b777b05ea7f07114c8327f7e31db9b5075c6d2f9c6347281976e09e2e9981d7007ba2300"
 }
