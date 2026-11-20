@@ -1,14 +1,14 @@
 {
  "app": "pdf",
- "version": "1.5.2",
- "date": "14/11/2026",
- "url": "https://github.com/quangnghi2111-ai/nghitran-capnhat/releases/download/pdf-1.5.2/NGHI_TRAN_PDF_CaiDat_1.5.2.exe",
- "size": 122165654,
- "sha256": "c03a9fa279e6c868b5f430b05841eae7409883257cdbc9a290de381ac25d2516",
- "notes": "Thêm nhận diện với file PDF có chữ ký số.",
+ "version": "1.6.0",
+ "date": "20/11/2026",
+ "url": "https://github.com/quangnghi2111-ai/nghitran-capnhat/releases/download/pdf-1.6.0/NGHI_TRAN_PDF_CaiDat_1.6.0.exe",
+ "size": 122175945,
+ "sha256": "f416503eebfab03d85a4104613c1f81f332aeefa4e2aefef273271db74b5f9e0",
+ "notes": "- BẢN PHÁT HÀNH CÔNG KHAI CHÍNH THỨC.\n- QUÀ TẶNG TRI ÂN CỦA NGHI TRẦN ĐẾN VỚI QUÝ KHÁCH!\n- THỜI HẠN 1 NĂM BẢN ĐẦY ĐỦ: 21/11/2026 - 20/11/2027.\n(HẾT THỜI GIAN QUAY VỀ BẢN GIỚI HẠN, QUÝ KHÁCH VẪN SỬ DỤNG BÌNH THƯỜNG)",
  "bat_buoc": false,
  "tang_den": "2027-11-20",
  "thong_ke": "https://script.google.com/macros/s/AKfycbw9mGjcjp8MqXeI8OzVAXD5-nrLZcYhfUqhz1oEqmlFUpHIswE1OZnYBow5omn1Z_qJ/exec",
- "ky_luc": 1795181907,
- "sig": "9bb76112b650e2f2356d8e826afc3f4d6324525d279da1e0c1ba6438b777b05ea7f07114c8327f7e31db9b5075c6d2f9c6347281976e09e2e9981d7007ba2300"
+ "ky_luc": 1795182139,
+ "sig": "3d40d6e15d59267ee991f523bf7123155ff4ff7a35903c30e9e87bb112534f5efcc9731b4bc427f07940f12702bf9b7f9bdb3818a144508ed5913a1643d1890e"
 }
