@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NGHI TRẦN PDF – Phần mềm PDF tiếng Việt, tải miễn phí</title>
+<meta name="description" content="NGHI TRẦN PDF: đọc, chuyển PDF sang Word/Excel, nhận dạng chữ tiếng Việt, gộp tách trang, ký PDF, chèn mã vạch. Chạy trên máy, không cần mạng. Tặng bản đầy đủ miễn phí.">
+<meta property="og:title" content="NGHI TRẦN PDF – Phần mềm PDF tiếng Việt, tải miễn phí">
+<meta property="og:description" content="Đọc, chuyển đổi, nhận dạng chữ, gộp tách trang, ký PDF. Tặng bản đầy đủ miễn phí.">
+<meta property="og:image" content="anh/trang-chu.webp">
+<link rel="icon" href="anh/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --blue:#1F5EEB; --blue-d:#1749C2; --blue-50:#EEF3FE; --red:#E2372B; --ink:#0E1B3D; --text:#33415C;
+    --muted:#5B6B85; --line:#E3E8F2; --bg:#F5F7FC; --card:#FFFFFF; --green:#17803F; --green-50:#E7F6EC;
+    --amber-50:#FFF7E6; --amber:#9A5B00; --shadow:0 10px 30px rgba(16,24,64,.08);
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;font-family:"Be Vietnam Pro",system-ui,"Segoe UI",Arial,sans-serif;color:var(--text);background:var(--bg);line-height:1.6}
+  a{color:var(--blue)}
+  img{max-width:100%;height:auto;display:block}
+  .wrap{max-width:1160px;margin:0 auto;padding:0 20px}
+  header.top{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+  .top .wrap{display:flex;align-items:center;gap:16px;height:64px}
+  .brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--ink);font-weight:800;font-size:18px}
+  .brand img{width:36px;height:36px;border-radius:8px}
+  nav.links{margin-left:auto;display:flex;gap:22px}
+  nav.links a{color:var(--text);text-decoration:none;font-weight:500;font-size:15px}
+  nav.links a:hover{color:var(--blue)}
+  .btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;border-radius:12px;font-weight:700;text-decoration:none;cursor:pointer;border:0;font-family:inherit}
+  .btn-primary{background:var(--blue);color:#fff;padding:16px 28px;font-size:18px;box-shadow:0 8px 24px rgba(31,94,235,.32)}
+  .btn-primary:hover{background:var(--blue-d)}
+  .btn-ghost{background:#fff;color:var(--ink);padding:14px 22px;font-size:16px;border:1px solid var(--line)}
+  .btn-sm{padding:9px 16px;font-size:14px;background:var(--blue);color:#fff}
+  .hero{padding:56px 0 40px;background:radial-gradient(1200px 500px at 85% -10%,#DCE7FF 0,transparent 60%),linear-gradient(#fff,var(--bg))}
+  .hero .wrap{display:grid;grid-template-columns:1.05fr 1fr;gap:44px;align-items:center}
+  .gift{display:inline-flex;align-items:center;gap:8px;background:var(--green-50);color:var(--green);border:1px solid #BFE6CC;padding:7px 14px;border-radius:999px;font-weight:700;font-size:14px}
+  h1{color:var(--ink);font-size:44px;line-height:1.15;margin:16px 0 14px;font-weight:800;letter-spacing:-.5px}
+  h1 em{font-style:normal;color:var(--blue)}
+  .lead{font-size:18px;color:var(--muted);margin:0 0 26px}
+  .dl{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+  .meta{margin-top:12px;font-size:14px;color:var(--muted)}
+  .meta b{color:var(--ink)}
+  .ticks{display:flex;flex-wrap:wrap;gap:8px 18px;margin:22px 0 0;padding:0;list-style:none;font-size:15px}
+  .ticks li::before{content:"✓";color:var(--green);font-weight:800;margin-right:7px}
+  .shot{border-radius:16px;overflow:hidden;box-shadow:0 24px 60px rgba(16,24,64,.18);border:1px solid var(--line);background:#fff}
+  section{padding:64px 0}
+  .sec-h{text-align:center;max-width:720px;margin:0 auto 36px}
+  .sec-h h2{color:var(--ink);font-size:32px;margin:0 0 10px;font-weight:800}
+  .sec-h p{margin:0;color:var(--muted);font-size:17px}
+  .grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+  .feat{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px}
+  .feat .ic{width:44px;height:44px;border-radius:12px;display:grid;place-items:center;font-size:22px;margin-bottom:12px}
+  .feat h3{margin:0 0 6px;color:var(--ink);font-size:17px}
+  .feat p{margin:0;font-size:14.5px;color:var(--muted)}
+  .tabs{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-bottom:18px}
+  .tab{padding:9px 16px;border-radius:999px;border:1px solid var(--line);background:#fff;font:600 14px "Be Vietnam Pro",sans-serif;color:var(--text);cursor:pointer}
+  .tab[aria-selected="true"]{background:var(--blue);border-color:var(--blue);color:#fff}
+  .gallery .shot{max-width:1000px;margin:0 auto}
+  .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;counter-reset:s}
+  .step{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;position:relative}
+  .step::before{counter-increment:s;content:counter(s);width:34px;height:34px;border-radius:50%;background:var(--blue);color:#fff;display:grid;place-items:center;font-weight:800;margin-bottom:12px}
+  .step h3{margin:0 0 6px;color:var(--ink);font-size:17px}
+  .step p{margin:0;font-size:14.5px;color:var(--muted)}
+  .warn{max-width:860px;margin:18px auto 0;background:var(--amber-50);border:1px solid #F5D9A8;color:var(--amber);border-radius:14px;padding:16px 18px;font-size:15px}
+  .warn b{color:#7A4B00}
+  .faq{max-width:860px;margin:0 auto}
+  details{background:#fff;border:1px solid var(--line);border-radius:14px;padding:16px 20px;margin-bottom:10px}
+  summary{cursor:pointer;font-weight:700;color:var(--ink);font-size:16px}
+  details p{margin:10px 0 0;color:var(--muted)}
+  .contact{background:linear-gradient(135deg,#0E1B3D,#1F3C8F);color:#fff;border-radius:20px;padding:36px;display:flex;align-items:center;gap:28px;flex-wrap:wrap}
+  .contact h2{margin:0 0 6px;font-size:26px}
+  .contact p{margin:0;color:#C9D6F5}
+  .contact .btns{margin-left:auto;display:flex;gap:12px;flex-wrap:wrap}
+  .btn-zalo{background:#fff;color:#0068FF;padding:14px 22px;font-size:16px}
+  footer{padding:28px 0 40px;font-size:14px;color:var(--muted);text-align:center}
+  footer b{color:var(--ink)}
+  @media (max-width:960px){
+    .hero .wrap{grid-template-columns:1fr}
+    .grid{grid-template-columns:repeat(2,1fr)}
+    .steps{grid-template-columns:1fr}
+    h1{font-size:34px}
+    nav.links{display:none}
+  }
+  @media (max-width:520px){
+    .wrap{padding:0 16px}
+    .grid{grid-template-columns:1fr}
+    h1{font-size:29px}
+    .btn-primary{width:100%}
+    .contact{padding:24px}
+    .contact .btns{margin-left:0;width:100%}
+    .contact .btns .btn{flex:1}
+  }
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#"><img src="anh/logo.png" alt="">NGHI TRẦN PDF</a>
+    <nav class="links">
+      <a href="#tinh-nang">Tính năng</a><a href="#hinh-anh">Hình ảnh</a><a href="#cai-dat">Cài đặt</a><a href="#hoi-dap">Hỏi đáp</a><a href="#lien-he">Liên hệ</a>
+    </nav>
+    <a class="btn btn-sm js-dl" href="#tai-ve">Tải về</a>
+  </div>
+</header>
+
+<main>
+<div class="hero" id="tai-ve">
+  <div class="wrap">
+    <div>
+      <span class="gift" id="gift">🎁 Tặng BẢN ĐẦY ĐỦ miễn phí đến hết 20/11/2027</span>
+      <h1>Phần mềm PDF <em>tiếng Việt</em>, đủ công cụ, chạy không cần mạng</h1>
+      <p class="lead">Đọc, chuyển PDF sang Word / Excel, nhận dạng chữ tiếng Việt cho bản scan, gộp – tách – xoay trang, ký PDF và chèn mã vạch. File của bạn luôn nằm trên máy, không tải lên đâu cả.</p>
+      <div class="dl">
+        <a class="btn btn-primary js-dl" id="dl-main" href="#">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>
+          Tải về miễn phí
+        </a>
+        <a class="btn btn-ghost" href="#cai-dat">Hướng dẫn cài</a>
+      </div>
+      <div class="meta" id="meta">Dành cho Windows 10 / 11 (64-bit)</div>
+      <ul class="ticks">
+        <li>Không quảng cáo</li><li>Không cần tài khoản</li><li>Tự cập nhật bản mới</li><li>Có chữ ký số kiểm tra cập nhật</li>
+      </ul>
+    </div>
+    <div class="shot"><img src="anh/trang-chu.webp" width="1366" height="768" alt="Màn hình chính NGHI TRẦN PDF"></div>
+  </div>
+</div>
+
+<section id="tinh-nang">
+  <div class="wrap">
+    <div class="sec-h"><h2>Mọi việc thường gặp với PDF, ở một chỗ</h2><p>Giao diện tiếng Việt, nút to, dễ dùng cho cả người không rành máy tính.</p></div>
+    <div class="grid">
+      <div class="feat"><div class="ic" style="background:#E8F0FF">📄</div><h3>PDF sang Word</h3><p>Giữ bố cục, sửa tiếp được trong Word.</p></div>
+      <div class="feat"><div class="ic" style="background:#E5F5EC">📊</div><h3>PDF sang Excel</h3><p>Lấy bảng ra từng ô, cả bảng trong bản scan.</p></div>
+      <div class="feat"><div class="ic" style="background:#E2F6F4">🔎</div><h3>Nhận dạng chữ tiếng Việt</h3><p>PDF scan, ảnh chụp thành chữ copy được, có dấu.</p></div>
+      <div class="feat"><div class="ic" style="background:#FDECEA">🔁</div><h3>Word, Excel, ảnh sang PDF</h3><p>Chuyển nhiều file một lần; PDF sang ảnh JPG, PNG.</p></div>
+      <div class="feat"><div class="ic" style="background:#F1EBFC">🗂️</div><h3>Gộp, tách, xoay trang</h3><p>Kéo thả đổi thứ tự, xóa, chèn trang, phóng to xem rõ.</p></div>
+      <div class="feat"><div class="ic" style="background:#E8F0FF">✍️</div><h3>Ký PDF + mã vạch</h3><p>Chữ ký, mộc, mã vạch số phiếu; lưu mẫu để đặt nhanh.</p></div>
+      <div class="feat"><div class="ic" style="background:#FFF4DB">✏️</div><h3>Sửa chữ trong PDF</h3><p>Sửa trực tiếp chữ, thêm chữ, ảnh, ghi chú.</p></div>
+      <div class="feat"><div class="ic" style="background:#EAECFA">🔒</div><h3>Nén, mật khẩu, đóng dấu</h3><p>Giảm dung lượng gửi Zalo, đặt / gỡ mật khẩu, hình mờ.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="hinh-anh" class="gallery" style="background:#fff">
+  <div class="wrap">
+    <div class="sec-h"><h2>Hình ảnh phần mềm</h2><p>Bấm từng mục để xem.</p></div>
+    <div class="tabs" role="tablist" id="tabs">
+      <button class="tab" role="tab" aria-selected="true" data-img="doc-pdf">Đọc PDF</button>
+      <button class="tab" role="tab" aria-selected="false" data-img="chuyen-doi">Chuyển đổi</button>
+      <button class="tab" role="tab" aria-selected="false" data-img="sap-xep-trang">Sắp xếp trang</button>
+      <button class="tab" role="tab" aria-selected="false" data-img="ky-pdf">Ký PDF, mã vạch</button>
+      <button class="tab" role="tab" aria-selected="false" data-img="chinh-sua">Chỉnh sửa</button>
+      <button class="tab" role="tab" aria-selected="false" data-img="tien-ich">Tiện ích</button>
+    </div>
+    <div class="shot"><img id="gal" src="anh/doc-pdf.webp" width="1366" height="768" alt="Hình ảnh phần mềm" loading="lazy"></div>
+  </div>
+</section>
+
+<section id="cai-dat">
+  <div class="wrap">
+    <div class="sec-h"><h2>Cài đặt trong 1 phút</h2><p>Không cần nhập mã. Cài xong là dùng được bản đầy đủ.</p></div>
+    <div class="steps">
+      <div class="step"><h3>Tải file cài đặt</h3><p>Bấm nút <b>Tải về miễn phí</b> ở đầu trang. File tên <b>NGHI_TRAN_PDF_CaiDat_…exe</b>.</p></div>
+      <div class="step"><h3>Mở file vừa tải</h3><p>Nếu Windows hiện màn hình xanh “Windows protected your PC”: bấm <b>More info</b> rồi bấm <b>Run anyway</b>.</p></div>
+      <div class="step"><h3>Next, Next, Install</h3><p>Chọn “Tôi đồng ý”, bấm Next đến khi xong. Biểu tượng NGHI TRẦN PDF có ngoài Desktop.</p></div>
+    </div>
+    <div class="warn"><b>Vì sao Windows cảnh báo?</b> Phần mềm mới phát hành nên Windows chưa “quen”. File cài đặt là bản gốc từ trang này của NGHI TRẦN. Chỉ tải từ trang này hoặc link do NGHI TRẦN gửi, không tải từ trang lạ.</div>
+  </div>
+</section>
+
+<section id="hoi-dap" style="background:#fff">
+  <div class="wrap">
+    <div class="sec-h"><h2>Hỏi đáp</h2></div>
+    <div class="faq">
+      <details open><summary>Có thật là miễn phí không?</summary><p id="faq-free">Có. Từ nay đến hết ngày 20/11/2027, ai cài cũng dùng được BẢN ĐẦY ĐỦ, không cần mã, không giới hạn số máy.</p></details>
+      <details><summary>Hết thời gian tặng thì sao?</summary><p>Phần mềm tự về bản miễn phí (vẫn đọc, chuyển đổi cơ bản, sắp xếp trang…). Các file bạn đã làm giữ nguyên. Muốn dùng bản đầy đủ lâu dài, liên hệ NGHI TRẦN để mua mã kích hoạt.</p></details>
+      <details><summary>Có cần mạng Internet không?</summary><p>Không. Mọi việc chạy ngay trên máy của bạn, file không được tải lên đâu cả. Khi có mạng, phần mềm chỉ kiểm tra bản mới và gửi thống kê ẩn danh số máy đang dùng (có thể tắt trong cửa sổ Bản quyền).</p></details>
+      <details><summary>Máy nào dùng được?</summary><p>Windows 10 hoặc Windows 11, bản 64-bit. Chuyển Word / Excel / PowerPoint sang PDF cần có Microsoft Office hoặc LibreOffice trên máy.</p></details>
+      <details><summary>File có chữ ký số (USB token) có bị hỏng không?</summary><p>Không. Phần mềm nhận ra file có chữ ký số, đánh dấu khung chữ ký trên trang và không bao giờ ghi đè file gốc: khi cần sửa, phần mềm tạo bản sao để làm.</p></details>
+      <details><summary>Có bản mới thì cài lại không?</summary><p>Không cần. Phần mềm tự báo khi có bản mới, bấm “Cài ngay” là xong.</p></details>
+    </div>
+  </div>
+</section>
+
+<section id="lien-he">
+  <div class="wrap">
+    <div class="contact">
+      <div>
+        <h2>Cần hỗ trợ cài đặt, góp ý?</h2>
+        <p>NGHI TRẦN · ĐT / Zalo <b style="color:#fff">0938 084 583</b></p>
+      </div>
+      <div class="btns">
+        <a class="btn btn-zalo" href="https://zalo.me/0938084583" target="_blank" rel="noopener">Nhắn Zalo</a>
+        <a class="btn btn-ghost" href="tel:0938084583">Gọi điện</a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">© <span id="yr">2026</span> <b>NGHI TRẦN</b>. Bản quyền phần mềm NGHI TRẦN PDF thuộc NGHI TRẦN. Không sao chép, bẻ khóa, phát tán lại để bán khi chưa được phép.</div>
+</footer>
+
+<script>
+(function () {
+  // ===== Cấu hình: tên GitHub + kho chứa bản cập nhật (giống trong phần mềm) =====
+  var GITHUB = "quangnghi2111-ai", KHO = "nghitran-capnhat", FILE = "pdf.json";
+  var SOURCES = [
+    "https://raw.githubusercontent.com/" + GITHUB + "/" + KHO + "/main/" + FILE,
+    "https://cdn.jsdelivr.net/gh/" + GITHUB + "/" + KHO + "@main/" + FILE
+  ];
+  var FALLBACK = "https://github.com/" + GITHUB + "/" + KHO + "/releases";
+  var info = null, statsUrl = "", clicked = false;
+
+  function q(name) { try { return new URLSearchParams(location.search).get(name) || ""; } catch (e) { return ""; } }
+  var nguon = (q("nguon") || q("utm_source") || (document.referrer ? (function () {
+    try { return new URL(document.referrer).hostname.replace(/^www\./, ""); } catch (e) { return ""; } })() : "") || "truc-tiep").slice(0, 40);
+  function vid() {
+    var k = "nt_vid", v = "";
+    try { v = localStorage.getItem(k) || ""; } catch (e) {}
+    if (!v) { v = Math.random().toString(36).slice(2, 10) + Date.now().toString(36).slice(-4);
+      try { localStorage.setItem(k, v); } catch (e) {} }
+    return v;
+  }
+  function count(a) {
+    if (!statsUrl) return;
+    var u = statsUrl + (statsUrl.indexOf("?") < 0 ? "?" : "&") + "a=" + a + "&nguon=" + encodeURIComponent(nguon) +
+      "&vid=" + vid() + "&v=" + encodeURIComponent(info ? info.version : "") +
+      "&tb=" + (/Mobi|Android|iPhone/i.test(navigator.userAgent) ? "dt" : "mt");
+    try { fetch(u, { mode: "no-cors", keepalive: true, cache: "no-store" }); }
+    catch (e) { try { new Image().src = u; } catch (e2) {} }
+  }
+  function vnDate(iso) { var p = String(iso || "").split("-"); return p.length === 3 ? p[2] + "/" + p[1] + "/" + p[0] : ""; }
+
+  function apply(m) {
+    info = m;
+    statsUrl = (m.thong_ke || "").indexOf("https://script.google.com/") === 0 ? m.thong_ke : "";
+    var links = document.querySelectorAll(".js-dl");
+    for (var i = 0; i < links.length; i++) links[i].href = m.url;
+    var mb = m.size ? (m.size / 1048576).toFixed(0) + " MB" : "";
+    document.getElementById("meta").innerHTML = "Phiên bản <b>" + m.version + "</b>" + (m.date ? " · " + m.date : "") +
+      (mb ? " · " + mb : "") + " · Windows 10 / 11 (64-bit)";
+    var gift = document.getElementById("gift"), free = document.getElementById("faq-free");
+    if (m.tang_den) {
+      gift.textContent = "🎁 Tặng BẢN ĐẦY ĐỦ miễn phí đến hết " + vnDate(m.tang_den);
+      free.textContent = "Có. Từ nay đến hết ngày " + vnDate(m.tang_den) + ", ai cài cũng dùng được BẢN ĐẦY ĐỦ, không cần mã, không giới hạn số máy.";
+    } else if ("tang_den" in m) {
+      gift.textContent = "Tải miễn phí · dùng thử bản đầy đủ 7 ngày";
+      free.textContent = "Phần mềm tải và dùng miễn phí; bản đầy đủ có 7 ngày dùng thử, sau đó liên hệ NGHI TRẦN để mua mã.";
+    }
+    count("xem");
+  }
+  function load(i) {
+    if (i >= SOURCES.length) { var l = document.querySelectorAll(".js-dl");
+      for (var k = 0; k < l.length; k++) l[k].href = FALLBACK; return; }
+    fetch(SOURCES[i] + "?t=" + Date.now(), { cache: "no-store" })
+      .then(function (r) { if (!r.ok) throw 0; return r.json(); })
+      .then(function (m) { if (!m || !m.url || !m.version) throw 0; apply(m); })
+      .catch(function () { load(i + 1); });
+  }
+  document.addEventListener("click", function (e) {
+    var a = e.target.closest && e.target.closest(".js-dl");
+    if (!a) return;
+    if (a.getAttribute("href") === "#tai-ve") return;          // nút "Tải về" trên thanh: kéo lên đầu trang
+    if (!info) { return; }
+    if (!clicked) { clicked = true; count("tai"); setTimeout(function () { clicked = false; }, 4000); }
+  });
+  var tabs = document.querySelectorAll(".tab"), gal = document.getElementById("gal");
+  for (var t = 0; t < tabs.length; t++) tabs[t].addEventListener("click", function () {
+    for (var j = 0; j < tabs.length; j++) tabs[j].setAttribute("aria-selected", tabs[j] === this ? "true" : "false");
+    gal.src = "anh/" + this.getAttribute("data-img") + ".webp";
+  });
+  document.getElementById("yr").textContent = new Date().getFullYear();
+  load(0);
+})();
+</script>
+</body>
+</html>
