@@ -1,14 +1,14 @@
 {
  "app": "pdf",
- "version": "1.6.0",
+ "version": "1.6.1",
  "date": "20/11/2026",
- "url": "https://github.com/quangnghi2111-ai/nghitran-capnhat/releases/download/pdf-1.6.0/NGHI_TRAN_PDF_CaiDat_1.6.0.exe",
- "size": 122175945,
- "sha256": "f416503eebfab03d85a4104613c1f81f332aeefa4e2aefef273271db74b5f9e0",
- "notes": "- BẢN PHÁT HÀNH CÔNG KHAI CHÍNH THỨC.\n- QUÀ TẶNG TRI ÂN CỦA NGHI TRẦN ĐẾN VỚI QUÝ KHÁCH!\n- THỜI HẠN 1 NĂM BẢN ĐẦY ĐỦ: 21/11/2026 - 20/11/2027.\n(HẾT THỜI GIAN QUAY VỀ BẢN GIỚI HẠN, QUÝ KHÁCH VẪN SỬ DỤNG BÌNH THƯỜNG)",
+ "url": "https://github.com/quangnghi2111-ai/nghitran-capnhat/releases/download/pdf-1.6.1/NGHI_TRAN_PDF_CaiDat_1.6.1.exe",
+ "size": 122191020,
+ "sha256": "1e36757c0c20c06ee272870f14fce05d2365a70b18d61ead7f291f33c5a04658",
+ "notes": "- Bản phát hành chính thức.\n- Quà tặng tri ân của Nghi Trần đến Quý khách hàng.\n- Thời hạn sử dụng bản đầy đủ: 21/11/2026 - 20/11/2027.\n(Sau thời gian, quý khách vẫn sử dụng bình thường - giới hạn vài tính năng - có thể gia hạn)",
  "bat_buoc": false,
  "tang_den": "2027-11-20",
  "thong_ke": "https://script.google.com/macros/s/AKfycbw9mGjcjp8MqXeI8OzVAXD5-nrLZcYhfUqhz1oEqmlFUpHIswE1OZnYBow5omn1Z_qJ/exec",
- "ky_luc": 1795182139,
- "sig": "3d40d6e15d59267ee991f523bf7123155ff4ff7a35903c30e9e87bb112534f5efcc9731b4bc427f07940f12702bf9b7f9bdb3818a144508ed5913a1643d1890e"
+ "ky_luc": 1795184730,
+ "sig": "fc37b16ae49c6f8d3c65c5a47a69f5468cedd6ec8c3e39d8efbb36a461c728acd5f026daa6c0f66aa413c420aa2020ba51c9d223a0584bab8e3246f2ebf44a0f"
 }
