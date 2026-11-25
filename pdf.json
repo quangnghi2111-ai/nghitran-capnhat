@@ -1,14 +1,14 @@
 {
  "app": "pdf",
- "version": "1.6.1",
- "date": "20/11/2026",
- "url": "https://github.com/quangnghi2111-ai/nghitran-capnhat/releases/download/pdf-1.6.1/NGHI_TRAN_PDF_CaiDat_1.6.1.exe",
- "size": 122191020,
- "sha256": "1e36757c0c20c06ee272870f14fce05d2365a70b18d61ead7f291f33c5a04658",
- "notes": "- Bản phát hành chính thức.\n- Quà tặng tri ân của Nghi Trần đến Quý khách hàng.\n- Thời hạn sử dụng bản đầy đủ: 21/11/2026 - 20/11/2027.\n(Sau thời gian, quý khách vẫn sử dụng bình thường - giới hạn vài tính năng - có thể gia hạn)",
+ "version": "1.6.2",
+ "date": "25/11/2026",
+ "url": "https://github.com/quangnghi2111-ai/nghitran-capnhat/releases/download/pdf-1.6.2/NGHI_TRAN_PDF_CaiDat_1.6.2.exe",
+ "size": 122193042,
+ "sha256": "3de98e05678e619f8d053e46f898a07f25802206b2acebb5751a9cc0ca4cd57d",
+ "notes": "- Món quà tri ân của Nghi Trần dành cho khách hàng\n- Sửa lỗi phần mềm\n- Mọi vấn đề về phần mềm trong quá trình sử dụng xin góp ý qua zalo: 0938084583 (anh Nghi)\n- Xin Cám ơn !",
  "bat_buoc": false,
  "tang_den": "2027-11-20",
  "thong_ke": "https://script.google.com/macros/s/AKfycbw9mGjcjp8MqXeI8OzVAXD5-nrLZcYhfUqhz1oEqmlFUpHIswE1OZnYBow5omn1Z_qJ/exec",
- "ky_luc": 1795184730,
- "sig": "fc37b16ae49c6f8d3c65c5a47a69f5468cedd6ec8c3e39d8efbb36a461c728acd5f026daa6c0f66aa413c420aa2020ba51c9d223a0584bab8e3246f2ebf44a0f"
+ "ky_luc": 1795618378,
+ "sig": "43f397454ecbf86dca06a61f0ff8d7bf65718b77575e787a9325e82b963734d91143eb6ff857afda090814d484c6e7470eea6402b8a06bd28ad41bd62095710f"
 }
